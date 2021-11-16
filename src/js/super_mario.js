@@ -121,10 +121,7 @@ function goldCoin() {
 
 	// combine our image geometry and material into a mesh
 	var mesh = new THREE.Mesh(coinGeometry, coinMaterial)
-	var randomCloudPosition = [45, 50, 55, 60, 65]
 
-	mesh.position.y =
-		randomCloudPosition[Math.floor(Math.random() * randomCloudPosition.length)]
 	mesh.uuid = 'gold_coin'
 	// scene.add(mesh)
 	return mesh
@@ -285,7 +282,7 @@ function init() {
 
 		// Load an image file into a custom material
 		var pointsBrickMaterial = new THREE.MeshBasicMaterial({
-			map: pointsBrickLoader.load('../src/img/brick_coin.jpg'),
+			map: pointsBrickLoader.load('../src/img/brick.jpg'),
 		})
 
 		// create a plane geometry for the image with a width of 10
@@ -300,9 +297,6 @@ function init() {
 		pointBrickMesh.position.y = 10
 		pointBrickMesh.uuid = 'brick'
 		return pointBrickMesh
-		pointBrickMesh.position.x = 40
-
-		scene.add(pointBrickMesh)
 	}
 	loadPointsBrick()
 
