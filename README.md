@@ -19,5 +19,10 @@ npm run dev
 7. Dynamic Audio Handling
 and some more...
 
+## Game Screenshots
+
+<img src="https://i.ibb.co/dWqqgpn/Screenshot-1434.png" alt="Screenshot-1434" border="0"><br /><br />
+
+<img src="https://i.ibb.co/MP0pqBW/Screenshot-1435.png" alt="Screenshot-1435" border="0"><br />
 
 #### Happy Learning 😊
